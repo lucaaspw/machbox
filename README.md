@@ -1,8 +1,16 @@
-## Install
+## Instalação
 
 ```
-# install javascript dependencies
+# instalar as dependências
 $ npm install
-# or the line below which is faster
-$ yarn
+
+# installar o sass
+$ npm install node-sass
+
+# compilar o projeto
+$ npm start
+# ou
+$ yarn start
+
+## Acesse [`http://localhost:3000`](http://localhost:3000)
 
