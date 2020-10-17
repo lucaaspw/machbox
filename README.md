@@ -1,15 +1,15 @@
 ## Instalação
 
-#### instalar as dependências
+#### Instalar as dependências
 $ npm install
 
-#### installar o sass
+#### Installar o sass
 $ npm install node-sass
 
-#### compilar o projeto
+#### Compilar o projeto
 $ npm start
  ou
 $ yarn start
 
-## Acesse [`http://localhost:3000`](http://localhost:3000)
+##### Acesse [`http://localhost:3000`](http://localhost:3000)
 
