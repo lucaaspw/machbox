@@ -1,0 +1,288 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .content {
+  padding: 20px;
+}
+
+.container .content .ranking {
+  width: 100%;
+  max-width: 400px;
+  height: 80px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.container .content .ranking h1 {
+  font-size: 2.5rem;
+  color: #272727;
+}
+
+.container .content .podios-ranking {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.container .content .podios-ranking .box-image {
+  position: relative;
+  border: 3px solid #6cbef0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container .content .podios-ranking .box-image img {
+  max-width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container .content .podios-ranking .box-image span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #919191;
+  background: #f4f4f4;
+  border: 1px solid #727272;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.container .content .podios-ranking .description {
+  padding: 20px;
+}
+
+.container .content .podios-ranking .description h3 {
+  font-size: 15px;
+  color: #272727;
+}
+
+.container .content .podios-ranking .description p {
+  font-size: 14px;
+  color: #919191;
+}
+
+.container .content .podios-ranking .status {
+  position: absolute;
+  right: -270px;
+  background: #f8f6f7;
+  display: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  border-radius: 5px;
+}
+
+.container .content .podios-ranking .status .seta {
+  left: -20px;
+  top: 50%;
+  border: 10px solid;
+  border-color: transparent #f8f6f7 transparent transparent;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.container .content .podios-ranking .status .positive {
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content .podios-ranking .status .positive h5 {
+  text-align: center;
+  padding: 5px 10px;
+  background: #e0595f;
+  color: #fff;
+  font-weight: normal;
+  border-top-left-radius: 5px;
+}
+
+.container .content .podios-ranking .status .positive .porcent {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #727272;
+  padding: 10px;
+  text-align: center;
+  border-bottom-left-radius: 5px;
+}
+
+.container .content .podios-ranking .status .negative {
+  border-left: 1px solid #272727;
+  width: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .content .podios-ranking .status .negative h5 {
+  padding: 5px 10px;
+  background: #e0595f;
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  border-top-right-radius: 5px;
+}
+
+.container .content .podios-ranking .status .negative .porcent {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #727272;
+  padding: 10px;
+  text-align: center;
+}
+
+.container .content .podios-ranking:first-child {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.container .content .podios-ranking:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.container .content .podios-ranking:nth-child(odd) {
+  background: #fff;
+}
+
+.container .content .podios-ranking:nth-child(even) {
+  background: #f2f0f1;
+}
+
+.container .content .podios-ranking:hover {
+  background: #1cbbb4;
+}
+
+.container .content .podios-ranking:hover .box-image {
+  border: 3px solid #ffffff;
+}
+
+.container .content .podios-ranking:hover .description h3 {
+  color: #fff;
+}
+
+.container .content .podios-ranking:hover .description p {
+  color: #272727;
+}
+
+.container .content .podios-ranking:hover .status {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+  .status {
+    right: -170px !important;
+    bottom: -10px;
+    z-index: 1;
+  }
+  .status .positive .porcent {
+    border-left: 1px solid #727272;
+    border-bottom: 1px solid #727272;
+  }
+  .status .negative .porcent {
+    border-right: 1px solid #727272;
+    border-bottom: 1px solid #727272;
+    border-bottom-right-radius: 5px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container {
+    padding: 20px 0;
+    min-height: 100vh;
+  }
+  .container .status {
+    right: 15px !important;
+    bottom: -41px;
+  }
+  .container .status .seta {
+    left: 50px !important;
+    top: -18px !important;
+    border-color: transparent #e0595f transparent transparent !important;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+  }
+}
+/*# sourceMappingURL=style.css.map */
